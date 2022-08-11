@@ -5,7 +5,8 @@ body {
     box-sizing: border-box;
     background: #E5CDC8;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 98px;
+    margin-top: 90px;
+
 
 }
 
@@ -14,6 +15,7 @@ section {
     justify-content: center;
     margin: 0 auto;
     height: auto;
+    margin-top: 90px;
 }
 
 
@@ -149,7 +151,7 @@ nav {
     list-style: none;
     align-content: center;
     margin: 0 auto;
-    background-color:#D7A6B3 ;
+    background-color: #D7A6B3;
 
 
 }
@@ -259,13 +261,12 @@ nav {
     grid-row-gap: 5px;
     height: 100%;
     width: 80%;
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     justify-content: center;
     align-content: center;
     align-items: center;
     background: radial-gradient(ellipse at center, #D7A6B3, white, #D7A6B3)
-    
 }
 
 .rincon-de-luz div {
@@ -274,9 +275,10 @@ nav {
 }
 
 
-.texto-principal{
+.texto-principal {
     justify-content: center;
 }
+
 h1 {
     width: 100%;
     font-size: 60px;
@@ -284,13 +286,15 @@ h1 {
     justify-content: center;
     margin: 0 auto;
 }
-h1:hover{
+
+h1:hover {
     background-color: #D7A6B3;
     color: white;
     cursor: pointer;
 }
-section{
-   width: 100%; 
+
+section {
+    width: 100%;
 }
 
 
@@ -327,7 +331,7 @@ section{
     height: auto;
 }
 
-.cualidades img:hover{
+.cualidades img:hover {
     transition: all 1.5s;
     transform: scale(1.2);
 }
@@ -338,7 +342,7 @@ section{
     text-align: center;
     align-items: center;
     height: 100%;
-    
+
     flex-wrap: nowrap;
 }
 
@@ -352,7 +356,7 @@ section{
     height: auto;
 }
 
-.texto-oferta-mes{
+.texto-oferta-mes {
     text-align: center;
     width: 100%;
     font-size: 60px;
@@ -362,20 +366,21 @@ section{
 }
 
 
-.oferta-mes{
+.oferta-mes {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
-    
-    
+
+
 }
 
-.oferta-mes div{
+.oferta-mes div {
     text-align: center;
-    margin:10px;
+    margin: 10px;
     border: 1px solid black;
     border-radius: 30px;
 }
+
 .oferta-mes p {
     font-size: 25px;
     color: rgb(0, 0, 0);
@@ -445,7 +450,7 @@ section{
 .cuadro-de-destacados img {
     width: 90%;
     height: auto;
-   
+
 
 }
 
@@ -458,7 +463,7 @@ section{
     background-color: #ffffff;
     margin: 10px 10px;
     border: 1px solid black;
-    
+
 
 }
 
@@ -468,7 +473,7 @@ section{
 .medios-de-pago {
     text-align: center;
     margin-top: 60px;
-   
+
 }
 
 .medios-de-pago p {
@@ -481,7 +486,8 @@ section{
     margin: auto 0;
 
 }
-.medios-de-pago div{
+
+.medios-de-pago div {
     height: 100%;
 }
 
@@ -504,7 +510,7 @@ footer div {
 
 footer div img:hover {
     transform: scale(1.5);
-    
+
     transition: all 1s;
 
 }
@@ -539,7 +545,7 @@ footer p {
     top: 0px;
     width: auto;
     height: auto;
-    
+
 
 
 }
@@ -584,7 +590,7 @@ section img {
     width: auto;
     margin-top: -45px;
     flex-wrap: nowrap;
-    
+
 }
 
 .navegador_productos_menu {
@@ -592,7 +598,7 @@ section img {
     display: flex;
     list-style-type: none;
     margin: 5px auto;
-    color:black
+    color: black
 }
 
 .navegador_productos_menu li {
@@ -626,67 +632,7 @@ section img {
 /*=====================*/
 /*SECCION 3, Ofertas*/
 /*=====================*/
-section {
-    width: 100%;
-    height: auto;
-}
 
-.contenedor_ofertas_grid {
-    display: grid;
-    height: auto;
-    gap: 40px;
-    grid-template-areas:
-        "of1 of1 of2 of2 "
-        "of1 of1 of2 of2"
-        "of3 of3 of4 of4"
-        "of5 of5 of5 of5"
-        "of5 of5 of5 of5"
-        "of6 of6 of6 of6"
-
-
-}
-
-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.oferta_1 {
-    grid-area: of1;
-
-
-}
-
-.oferta_2 {
-    grid-area: of2;
-
-
-}
-
-.oferta_3 {
-    grid-area: of3;
-
-
-}
-
-.oferta_4 {
-    grid-area: of4;
-
-
-}
-
-.oferta_5 {
-    grid-area: of5;
-
-
-}
-
-.oferta_6 {
-    grid-area: of6;
-
-
-}
 
 
 
@@ -866,36 +812,44 @@ section img {
 
 
     }
-    .cualidades{
+
+    .cualidades {
         flex-wrap: wrap;
     }
-    .cualidades div{
+
+    .cualidades div {
         width: auto;
         margin: auto auto;
     }
-    .cualidades p{
+
+    .cualidades p {
         font-size: 15px;
     }
-    .oferta-mes{
-        grid-template-columns: repeat(1,1fr);
+
+    .oferta-mes {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .navegador_productos_menu{
+
+    .navegador_productos_menu {
         flex-wrap: wrap;
         font-size: 10px;
     }
+
     html,
-    body{
+    body {
         margin-top: 70px;
     }
-    .menu>li>a{
+
+    .menu>li>a {
         font-size: 10px;
         padding: 5px 5px;
     }
-    .navegador_productos_menu li{
+
+    .navegador_productos_menu li {
         font-size: 10px;
         font-weight: 700;
     }
-    
+
 }
 
 
