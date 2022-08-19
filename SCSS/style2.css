@@ -1,0 +1,15 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #E5CDC8;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 90px; }
+
+main,
+section {
+  justify-content: center;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 90px; }
