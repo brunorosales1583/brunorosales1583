@@ -1,0 +1,19 @@
+{
+  "name": "primer-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunorosales1583/brunorosales1583.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunorosales1583/brunorosales1583/issues"
+  },
+  "homepage": "https://github.com/brunorosales1583/brunorosales1583#readme"
+}
