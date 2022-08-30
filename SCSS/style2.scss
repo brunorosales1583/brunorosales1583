@@ -17,6 +17,7 @@ $rosaclaro:#D7A6B3;
 
 
 
+
 html,
 body {
     padding: 0;
@@ -24,10 +25,6 @@ body {
     box-sizing: border-box;
     background: $rosaclaro;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 80px;
-    
-
-
 }
 
 main,
@@ -35,200 +32,12 @@ section {
     justify-content: center;
     margin: 0 auto;
     height: auto;
-    margin-top: 90px;
     background-color: $rosaclaro;
+    /* padding-top: 70px; */
 
 }
 
 
-/*=====================*/
-/*====Navegador general======*/
-/*=====================*/
-.nav-principal {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    top: 0;
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-/*=====================*/
-/*navegador superior*/
-/*=====================*/
- .nav_superior {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    background-color: #ffffff;
- }
-
-
-
-.contenedor_logo a {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-
-}
-
-
-
-.contenedor_logo h1 {
-    font-size: 15px;
-
-}
-
-/*=====================*/
-/*logo*/
-/*=====================*/
-.logo {
-    width: 100px;
-    height: auto;
-    align-items: center;
-    margin-left: 100px;
-}
-
-/*=====================*/
-/*buscador*/
-/*=====================*/
-.formulario {
-    width: auto;
-    height: 40px;
-}
-
-.formulario input {
-    height: 100%;
-}
-
-.formulario label {
-    font-size: 5px;
-}
-
-.lupa {
-    width: 25px;
-    align-items: center;
-
-
-}
-
-.lupa {
-    margin: auto 20px;
-
-}
-
-.buscador {
-    display: flex;
-    margin-right: 15px;
-
-}
-
-.contenedor_lupa {
-    margin: auto;
-}
-
-.buscar {
-    font-size: 12px;
-    width: 300px;
-}
-
-/*=====================*/
-/*navegador*/
-/*=====================*/
-
-
-.navegacion {
-    display: flex;
-}
-
-nav {
-    background: $rosamuyclaro;
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    top: 10px;
-    margin: auto auto;
-}
-
-
-
-/*=====================*/
-/*menu del navegador*/
-/*=====================*/
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    list-style: none;
-    align-content: center;
-    margin: 0 auto;
-    background-color: $rosamuyclaro;
-
-
-}
-
-.menu>li {
-
-    margin: 5px;
-    align-items: center;
-    text-transform: uppercase;
-    width: max-content;
-}
-
-/*=====================*/
-/*hover y prop. del menu navegador*/
-/*=====================*/
-.menu>li>a {
-    padding: 0px 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.menu li a:hover {
-    color: #000000ec;
-    transition: all .4s;
-    background-color: white;
-    opacity: 0.8;
-    border-radius: 10px;
-
-}
-
-.menu li:hover {
-    transform: scale(1.2);
-    transition: all .4s;
-
-}
-
-
-/*=====================*/
-/*contenedor whatsapp fijo*/
-/*=====================*/
-.contenedor-w-fijo {
-    display: flex;
-    width: 420px;
-    height: 80px;
-    position: fixed;
-    right: 5px;
-    bottom: 5px;
-    background-color: #fefefe7a;
-    border-radius: 50px 0 50px 0;
-
-}
 
 /*=====================*/
 /*contenedor whatsapp fijo hover*/
@@ -285,8 +94,7 @@ nav {
     height: 100%;
     width: 80%;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.3);
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 0px auto;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -375,7 +183,7 @@ section {
 /*=====================*/
 .contenedor-oferta-mes {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto auto;
     width: 100%;
     height: auto;
 }
@@ -392,8 +200,9 @@ section {
 
 .oferta-mes {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    
 
 
 }
@@ -403,6 +212,7 @@ section {
     margin: 10px;
     border: 1px solid black;
     border-radius: 30px;
+    background-color: #ffffff;
 }
 
 .oferta-mes p {
@@ -493,13 +303,16 @@ section {
 /*=====================*/
 .medios-de-pago {
     text-align: center;
-    margin: 60px auto;
+    margin-top: 60px;
+    background-color: $rosaclaro;
+    
 
 }
 
 .medios-de-pago p {
     font-size: 30px;
     text-align: center;
+  
 }
 
 .medios-de-pago img {
@@ -508,11 +321,6 @@ section {
 
 }
 
-.medios-de-pago div {
-    height: 100%;
-    margin-bottom: 80px;
-    background-color: $rosaclaro;
-}
 
 /*=====================*/
 /*footer*/
@@ -615,7 +423,7 @@ section img {
     margin: 0 auto;
     background-color: white;
     width: auto;
-    margin-top: -45px;
+    /* margin-top: -45px; */
     flex-wrap: nowrap;
 
 }
@@ -846,7 +654,7 @@ section img {
     }
 
     .oferta-mes {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .navegador_productos_menu {
@@ -854,10 +662,7 @@ section img {
         font-size: 10px;
     }
 
-    html,
-    body {
-        margin-top: 70px;
-    }
+   
 
     .menu>li>a {
         font-size: 10px;
