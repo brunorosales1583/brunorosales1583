@@ -448,7 +448,8 @@ section img {
 }
 
 .contenedor_integrantes {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   width: auto;
   height: auto;
   align-items: center;
@@ -469,6 +470,7 @@ section img {
 }
 
 .contenedor_integrantes div {
+  width: auto;
   text-align: center;
   border: 1px solid black;
   margin: 5px;
@@ -582,6 +584,22 @@ section img {
   .navegador_productos_menu li {
     font-size: 10px;
     font-weight: 700;
+  }
+  .contenedor_integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin: 50px 20px;
+  }
+  .contenedor_integrantes div {
+    width: 80%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 15px;
   }
 }
 
