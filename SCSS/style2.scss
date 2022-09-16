@@ -487,15 +487,15 @@ section img {
 /*=====================*/
 
 .articulo h2 {
-    font-size: 60px;
-    text-decoration-line: underline;
-    text-decoration-color: #f60847;
-    margin-left: 20px
+    text-align: center;
+    font-size: 30px;
+    margin: 20px auto;
+    
 }
 
 .articulo p {
     margin: 15px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .contenedor_integrantes {
@@ -542,6 +542,24 @@ section img {
     font-size: 30px;
     font-weight: bold;
     margin: 10px;
+}
+.fabrica{
+    display: flex;
+    justify-content: center;
+}
+
+.fabrica img{
+    width: 70%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+   justify-content: center;
 }
 
 /*=====================*/
@@ -694,6 +712,7 @@ section img {
         border-radius: 15px;
     
     }
+    
     
     
 }
