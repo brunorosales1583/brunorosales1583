@@ -553,8 +553,10 @@ section img {
 }
 
 .mapa{
+    width: 80%;
     display: flex;
     justify-content: center;
+    
 }
 
 .video{
@@ -582,7 +584,31 @@ section img {
         width: 35px;
         margin: 15px;
     }
-
+        
+    .fabrica{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fabrica img{
+        width: 70%;
+    }
+    
+    .mapa{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .video{
+        width: 80%x;
+        display: flex;
+       justify-content: center;
+    
+       
+    }
+       
 }
 
 @media (max-width: 745px) {
@@ -712,7 +738,12 @@ section img {
         border-radius: 15px;
     
     }
-    
+    .video div{
+        width: 80%;
+        display: flex;
+       justify-content: center;
+          
+    }
     
     
 }
