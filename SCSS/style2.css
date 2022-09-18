@@ -436,6 +436,7 @@ section img {
 /*articulo*/
 /*=====================*/
 .articulo h2 {
+  margin: 30px;
   text-align: center;
   font-size: 30px;
   margin: 20px auto;
@@ -444,6 +445,10 @@ section img {
 .articulo p {
   margin: 15px;
   font-size: 15px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .contenedor_integrantes {
@@ -493,13 +498,7 @@ section img {
 }
 
 .fabrica img {
-  width: 70%;
-}
-
-.mapa {
-  width: 80%;
-  display: flex;
-  justify-content: center;
+  width: 90%;
 }
 
 .video {
@@ -530,13 +529,8 @@ section img {
   .fabrica img {
     width: 70%;
   }
-  .mapa {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-  }
   .video {
-    width: 80% x;
+    width: 90% x;
     display: flex;
     justify-content: center;
   }
