@@ -439,16 +439,12 @@ section img {
   margin: 30px;
   text-align: center;
   font-size: 30px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .articulo p {
   margin: 15px;
   font-size: 15px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .contenedor_integrantes {
