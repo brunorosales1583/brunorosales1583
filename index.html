@@ -24,15 +24,15 @@
 	<!-- BS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<!--titulo de la solapa web-->
 	<title>Rincon de Luz</title>
 </head>
 
-
 <body>
 	<nav class="navbar navbar-expand-lg bg-transparent">
-		<div class="container-fluid">
+		<div class="container-fluid" data-aos="zoom-out-left">
 			<a class="navbar-brand" href="/index.html"><img src="imagenes/img-panal.jpg" width="60px"
 					title="imagen de logo de pañal" alt="imagen de logo de pañal"></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -61,13 +61,12 @@
 			</div>
 			<form class="d-flex mr-lg-0" role="search">
 				<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-				<button class="btn btn-outline-success" type="submit">Buscar</button>
+				<button href="index.html" class="btn btn-outline-success" type="submit">Buscar</button>
 			</form>
 		</div>
 	</nav>
 	<!--articulo principal-->
 	<main>
-
 		<!--Whatsapp fijo-->
 		<div class="contenedor-w-fijo">
 			<!--Whatsapp fijo-->
@@ -83,7 +82,6 @@
 				</a>
 			</div>
 		</div>
-
 		<!--contenedor principal-->
 		<div class="contenedor_principal">
 			<!--Rincon de Luz texto-->
@@ -94,24 +92,20 @@
 				</h1>
 				<!--Sub-Titulo-->
 				<p class="subtitulo">Todo lo que buscas para los mas pequeños lo podes encontrar acá</p>
-
 				<!--Cualidades de la empresa-->
 				<div class="cualidades">
 					<div class="cont-envio">
 						<img src="imagenes/img-envio.png" alt="envios">
 						<p>Envios a domicilio</p>
 					</div>
-
 					<div class="cont-calidad">
 						<img src="imagenes/img-calidad.png" alt="calidad">
 						<p>Calidad asegurada</p>
 					</div>
-
 					<div class="cont-descuentos">
 						<img src="imagenes/img-descuentos.png" alt="descuentos">
 						<p>Descuentos especiales</p>
 					</div>
-
 					<div class="cont-pagos">
 						<img src="imagenes/img-pagos.png" alt="medios de pago">
 						<p>Aceptamos todos los medios de pago</p>
@@ -168,7 +162,7 @@
 			</div>
 		</div>
 		<div>
-			<p class="encabezado-1"><b>DESTACADOS</b></p>
+			<p class="encabezado-1"><strong>DESTACADOS</strong></p>
 		</div>
 		<!--seccion de destacados-->
 		<section>
@@ -200,7 +194,7 @@
 			</div>
 
 			<!--Medios de Pago-->
-			<div class="medios-de-pago">
+			<div class="medios-de-pago" data-aos="fade-up-right">
 				<p class="medios-de-pago"><b>Aceptamos todos los medios de pago</b></p>
 				<img src="imagenes/img-mediosdepago.jpg" alt="imagen de tarjetas" class="img-medios-de-pago">
 			</div>
@@ -230,6 +224,12 @@
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000
+		});
 	</script>
 </body>
 
